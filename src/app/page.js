@@ -2,23 +2,31 @@
 
 import { useEffect, useState } from "react";
 import SubjectCard from '@/components/SubjectCard';
+import { useUser } from "@/context/UserContext";
+import AuthPage from "@/components/AuthPage";
 
 export default function Home() {
   const [subjects, setSubjects] = useState([]);
+  const { user } = useUser();
 
   useEffect(() => {
-    const fetchSubjects = async () => {
-      const response = await fetch('/data/questions.json');
-      if (response.ok) {
-        const data = await response.json();
-        setSubjects(data.subjects);
-        console.log(data);
-      } else {
-        console.error("Failed to fetch subjects");
-      }
-    };
-    fetchSubjects();
-  }, []);
+    if (user) {
+      const fetchSubjects = async () => {
+        const response = await fetch('/api/subjects');
+        if (response.ok) {
+          const data = await response.json();
+          setSubjects(data.subjects);
+        } else {
+          console.error("Failed to fetch subjects");
+        }
+      };
+      fetchSubjects();
+    }
+  }, [user]);
+
+  if (!user) {
+    return <AuthPage />;
+  }
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen flex flex-col items-center">

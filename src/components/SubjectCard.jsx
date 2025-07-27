@@ -6,22 +6,21 @@ import { useRouter } from "next/navigation";
 export default function SubjectCard({ subject }) {
   const router = useRouter();
 
-  const handleClick = () => {
-    router.push(`/quiz/${subject.name.toLowerCase()}`);
+  const handleClick = (difficulty) => {
+    router.push(`/quiz/${subject.name.toLowerCase()}?difficulty=${difficulty}`);
   };
 
   return (
     <div
-      onClick={handleClick}
-      className="group relative border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer transform hover:-translate-y-2 hover:scale-105"
+      className="group relative border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-2 hover:scale-105"
     >
       {/* Subject Image with slight zoom effect */}
       <div className="overflow-hidden">
         <Image
-          src={subject.image} 
+          src={subject.image}
           alt={`${subject.name} image`}
-          width={400} 
-          height={300} 
+          width={400}
+          height={300}
           className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
         />
       </div>
@@ -36,6 +35,11 @@ export default function SubjectCard({ subject }) {
         <p className="text-center text-gray-700 text-lg mt-2">
           {subject.questions.length} Questions
         </p>
+        <div className="flex justify-around mt-4">
+          <button onClick={() => handleClick('easy')} className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Easy</button>
+          <button onClick={() => handleClick('medium')} className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">Medium</button>
+          <button onClick={() => handleClick('hard')} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">Hard</button>
+        </div>
       </div>
 
       {/* Decoration Line */}

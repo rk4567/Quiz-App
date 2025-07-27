@@ -12,7 +12,8 @@
                         "Hyperlink and Text Markup Language",
                         "Hypertext Markup Link"
                     ],
-                    "answer": "Hypertext Markup Language"
+                    "answer": "Hypertext Markup Language",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Which language is primarily used for web development?",
@@ -22,7 +23,8 @@
                         "JavaScript",
                         "C++"
                     ],
-                    "answer": "JavaScript"
+                    "answer": "JavaScript",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the purpose of CSS?",
@@ -32,7 +34,8 @@
                         "Program the logic",
                         "Create databases"
                     ],
-                    "answer": "Style the content"
+                    "answer": "Style the content",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Which of the following is a backend programming language?",
@@ -42,7 +45,8 @@
                         "PHP",
                         "CSS"
                     ],
-                    "answer": "PHP"
+                    "answer": "PHP",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is a variable?",
@@ -52,7 +56,8 @@
                         "A function",
                         "A data type"
                     ],
-                    "answer": "A storage location in memory"
+                    "answer": "A storage location in memory",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What does SQL stand for?",
@@ -62,7 +67,8 @@
                         "Simple Query Language",
                         "Structured Quick Language"
                     ],
-                    "answer": "Structured Query Language"
+                    "answer": "Structured Query Language",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Which of the following is not a programming paradigm?",
@@ -72,7 +78,8 @@
                         "Functional",
                         "Markup"
                     ],
-                    "answer": "Markup"
+                    "answer": "Markup",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the primary purpose of a loop?",
@@ -82,7 +89,8 @@
                         "To create a function",
                         "To handle errors"
                     ],
-                    "answer": "To repeat a block of code"
+                    "answer": "To repeat a block of code",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is an API?",
@@ -92,7 +100,8 @@
                         "Application Program Interface",
                         "Advanced Program Interface"
                     ],
-                    "answer": "Application Programming Interface"
+                    "answer": "Application Programming Interface",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Which data structure uses LIFO (Last In, First Out)?",
@@ -102,7 +111,8 @@
                         "Array",
                         "Linked List"
                     ],
-                    "answer": "Stack"
+                    "answer": "Stack",
+                    "difficulty": "hard"
                 }
             ]
         },
@@ -111,104 +121,64 @@
             "image": "/images/quiz.png",
             "questions": [
                 {
-                    "question": "What is the square root of 49?",
-                    "options": [
-                        "7",
-                        "12",
-                        "49",
-                        "6"
-                    ],
-                    "answer": "7"
+                    "question": "What is the square root of 81?",
+                    "options": ["7", "8", "9", "10"],
+                    "answer": "9",
+                    "difficulty": "easy"
                 },
                 {
-                    "question": "What is 2 + 2?",
-                    "options": [
-                        "3",
-                        "4",
-                        "5",
-                        "6"
-                    ],
-                    "answer": "4"
+                    "question": "What is 12 * 12?",
+                    "options": ["124", "134", "144", "154"],
+                    "answer": "144",
+                    "difficulty": "easy"
                 },
                 {
-                    "question": "What is the square root of 16?",
-                    "options": [
-                        "2",
-                        "4",
-                        "8",
-                        "16"
-                    ],
-                    "answer": "4"
+                    "question": "What is the value of Pi (to two decimal places)?",
+                    "options": ["3.12", "3.14", "3.16", "3.18"],
+                    "answer": "3.14",
+                    "difficulty": "easy"
                 },
                 {
-                    "question": "What is 7 x 6?",
-                    "options": [
-                        "42",
-                        "36",
-                        "48",
-                        "56"
-                    ],
-                    "answer": "42"
+                    "question": "What is the formula for the area of a circle?",
+                    "options": ["pi * r^2", "2 * pi * r", "pi * d", "pi * r"],
+                    "answer": "pi * r^2",
+                    "difficulty": "medium"
                 },
                 {
-                    "question": "What is 15 - 9?",
-                    "options": [
-                        "6",
-                        "7",
-                        "8",
-                        "5"
-                    ],
-                    "answer": "6"
+                    "question": "What is the next prime number after 13?",
+                    "options": ["14", "15", "16", "17"],
+                    "answer": "17",
+                    "difficulty": "medium"
                 },
                 {
-                    "question": "What is 5^2?",
-                    "options": [
-                        "25",
-                        "20",
-                        "15",
-                        "30"
-                    ],
-                    "answer": "25"
+                    "question": "What is the Pythagorean theorem?",
+                    "options": ["a^2 + b^2 = c^2", "a + b = c", "a^2 - b^2 = c^2", "a * b = c"],
+                    "answer": "a^2 + b^2 = c^2",
+                    "difficulty": "medium"
                 },
                 {
-                    "question": "What is the value of π (pi) to two decimal places?",
-                    "options": [
-                        "3.14",
-                        "3.16",
-                        "3.12",
-                        "3.15"
-                    ],
-                    "answer": "3.14"
+                    "question": "What is the value of 0! (zero factorial)?",
+                    "options": ["0", "1", "undefined", "10"],
+                    "answer": "1",
+                    "difficulty": "hard"
                 },
                 {
-                    "question": "What is the next prime number after 7?",
-                    "options": [
-                        "8",
-                        "9",
-                        "10",
-                        "11"
-                    ],
-                    "answer": "11"
+                    "question": "How many sides does a dodecahedron have?",
+                    "options": ["10", "12", "14", "16"],
+                    "answer": "12",
+                    "difficulty": "hard"
                 },
                 {
-                    "question": "What is the sum of angles in a triangle?",
-                    "options": [
-                        "90 degrees",
-                        "180 degrees",
-                        "360 degrees",
-                        "270 degrees"
-                    ],
-                    "answer": "180 degrees"
+                    "question": "What is the integral of 1/x?",
+                    "options": ["x", "ln(x)", "x^2", "1/x^2"],
+                    "answer": "ln(x)",
+                    "difficulty": "hard"
                 },
                 {
-                    "question": "What is 12 ÷ 4?",
-                    "options": [
-                        "3",
-                        "4",
-                        "2",
-                        "6"
-                    ],
-                    "answer": "3"
+                    "question": "What is the golden ratio?",
+                    "options": ["1.618", "1.718", "1.818", "1.918"],
+                    "answer": "1.618",
+                    "difficulty": "hard"
                 }
             ]
         },
@@ -218,103 +188,63 @@
             "questions": [
                 {
                     "question": "What is the chemical symbol for water?",
-                    "options": [
-                        "H2O",
-                        "O2",
-                        "CO2",
-                        "N2"
-                    ],
-                    "answer": "H2O"
+                    "options": ["H2O", "O2", "CO2", "N2"],
+                    "answer": "H2O",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Which planet is known as the Red Planet?",
-                    "options": [
-                        "Earth",
-                        "Mars",
-                        "Jupiter",
-                        "Saturn"
-                    ],
-                    "answer": "Mars"
+                    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+                    "answer": "Mars",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the speed of light?",
-                    "options": [
-                        "299,792 km/s",
-                        "150,000 km/s",
-                        "1,000 km/s",
-                        "300,000 km/s"
-                    ],
-                    "answer": "299,792 km/s"
+                    "options": ["299,792 km/s", "150,000 km/s", "1,000 km/s", "300,000 km/s"],
+                    "answer": "299,792 km/s",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the powerhouse of the cell?",
-                    "options": [
-                        "Nucleus",
-                        "Ribosome",
-                        "Mitochondria",
-                        "Endoplasmic Reticulum"
-                    ],
-                    "answer": "Mitochondria"
+                    "options": ["Nucleus", "Ribosome", "Mitochondria", "Endoplasmic Reticulum"],
+                    "answer": "Mitochondria",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What gas do plants absorb?",
-                    "options": [
-                        "Oxygen",
-                        "Carbon Dioxide",
-                        "Nitrogen",
-                        "Hydrogen"
-                    ],
-                    "answer": "Carbon Dioxide"
+                    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+                    "answer": "Carbon Dioxide",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the boiling point of water?",
-                    "options": [
-                        "100°C",
-                        "90°C",
-                        "80°C",
-                        "120°C"
-                    ],
-                    "answer": "100°C"
+                    "options": ["100°C", "90°C", "80°C", "120°C"],
+                    "answer": "100°C",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the chemical symbol for gold?",
-                    "options": [
-                        "Au",
-                        "Ag",
-                        "Pb",
-                        "Fe"
-                    ],
-                    "answer": "Au"
+                    "options": ["Au", "Ag", "Pb", "Fe"],
+                    "answer": "Au",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Which planet is closest to the Sun?",
-                    "options": [
-                        "Venus",
-                        "Mars",
-                        "Mercury",
-                        "Earth"
-                    ],
-                    "answer": "Mercury"
+                    "options": ["Venus", "Mars", "Mercury", "Earth"],
+                    "answer": "Mercury",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the most abundant gas in the Earth's atmosphere?",
-                    "options": [
-                        "Oxygen",
-                        "Nitrogen",
-                        "Carbon Dioxide",
-                        "Hydrogen"
-                    ],
-                    "answer": "Nitrogen"
+                    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+                    "answer": "Nitrogen",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What type of bond involves the sharing of electron pairs?",
-                    "options": [
-                        "Ionic",
-                        "Covalent",
-                        "Hydrogen",
-                        "Metallic"
-                    ],
-                    "answer": "Covalent"
+                    "options": ["Ionic", "Covalent", "Hydrogen", "Metallic"],
+                    "answer": "Covalent",
+                    "difficulty": "hard"
                 }
             ]
         },
@@ -324,103 +254,63 @@
             "questions": [
                 {
                     "question": "Who was the first President of the USA?",
-                    "options": [
-                        "George Washington",
-                        "Thomas Jefferson",
-                        "Abraham Lincoln",
-                        "John Adams"
-                    ],
-                    "answer": "George Washington"
+                    "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+                    "answer": "George Washington",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What year did World War II end?",
-                    "options": [
-                        "1945",
-                        "1944",
-                        "1939",
-                        "1950"
-                    ],
-                    "answer": "1945"
+                    "options": ["1945", "1944", "1939", "1950"],
+                    "answer": "1945",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Who wrote the Declaration of Independence?",
-                    "options": [
-                        "George Washington",
-                        "John Adams",
-                        "Thomas Jefferson",
-                        "Benjamin Franklin"
-                    ],
-                    "answer": "Thomas Jefferson"
+                    "options": ["George Washington", "John Adams", "Thomas Jefferson", "Benjamin Franklin"],
+                    "answer": "Thomas Jefferson",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What ancient civilization built the pyramids?",
-                    "options": [
-                        "Romans",
-                        "Greeks",
-                        "Egyptians",
-                        "Mayans"
-                    ],
-                    "answer": "Egyptians"
+                    "options": ["Romans", "Greeks", "Egyptians", "Mayans"],
+                    "answer": "Egyptians",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Who was known as the 'Iron Lady'?",
-                    "options": [
-                        "Margaret Thatcher",
-                        "Indira Gandhi",
-                        "Angela Merkel",
-                        "Golda Meir"
-                    ],
-                    "answer": "Margaret Thatcher"
+                    "options": ["Margaret Thatcher", "Indira Gandhi", "Angela Merkel", "Golda Meir"],
+                    "answer": "Margaret Thatcher",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What was the main cause of the Cold War?",
-                    "options": [
-                        "Capitalism vs. Communism",
-                        "Racism",
-                        "Imperialism",
-                        "Nationalism"
-                    ],
-                    "answer": "Capitalism vs. Communism"
+                    "options": ["Capitalism vs. Communism", "Racism", "Imperialism", "Nationalism"],
+                    "answer": "Capitalism vs. Communism",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Who was the first man on the moon?",
-                    "options": [
-                        "Neil Armstrong",
-                        "Buzz Aldrin",
-                        "Yuri Gagarin",
-                        "Michael Collins"
-                    ],
-                    "answer": "Neil Armstrong"
+                    "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+                    "answer": "Neil Armstrong",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What was the name of the ship that sank on its maiden voyage in 1912?",
-                    "options": [
-                        "Lusitania",
-                        "Titanic",
-                        "Olympic",
-                        "Britannic"
-                    ],
-                    "answer": "Titanic"
+                    "options": ["Lusitania", "Titanic", "Olympic", "Britannic"],
+                    "answer": "Titanic",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Which empire was known for its road system?",
-                    "options": [
-                        "Roman Empire",
-                        "Ottoman Empire",
-                        "Mongol Empire",
-                        "Persian Empire"
-                    ],
-                    "answer": "Roman Empire"
+                    "options": ["Roman Empire", "Ottoman Empire", "Mongol Empire", "Persian Empire"],
+                    "answer": "Roman Empire",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What event sparked the start of World War I?",
-                    "options": [
-                        "Assassination of Archduke Ferdinand",
-                        "Invasion of Poland",
-                        "Attack on Pearl Harbor",
-                        "Fall of the Berlin Wall"
-                    ],
-                    "answer": "Assassination of Archduke Ferdinand"
+                    "options": ["Assassination of Archduke Ferdinand", "Invasion of Poland", "Attack on Pearl Harbor", "Fall of the Berlin Wall"],
+                    "answer": "Assassination of Archduke Ferdinand",
+                    "difficulty": "hard"
                 }
             ]
         },
@@ -430,103 +320,63 @@
             "questions": [
                 {
                     "question": "What is the largest continent?",
-                    "options": [
-                        "Asia",
-                        "Africa",
-                        "North America",
-                        "Europe"
-                    ],
-                    "answer": "Asia"
+                    "options": ["Asia", "Africa", "North America", "Europe"],
+                    "answer": "Asia",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What river is the longest in the world?",
-                    "options": [
-                        "Amazon",
-                        "Nile",
-                        "Yangtze",
-                        "Mississippi"
-                    ],
-                    "answer": "Nile"
+                    "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+                    "answer": "Nile",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the capital of Japan?",
-                    "options": [
-                        "Tokyo",
-                        "Seoul",
-                        "Beijing",
-                        "Bangkok"
-                    ],
-                    "answer": "Tokyo"
+                    "options": ["Tokyo", "Seoul", "Beijing", "Bangkok"],
+                    "answer": "Tokyo",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Which desert is the largest in the world?",
-                    "options": [
-                        "Sahara",
-                        "Gobi",
-                        "Kalahari",
-                        "Atacama"
-                    ],
-                    "answer": "Sahara"
+                    "options": ["Sahara", "Gobi", "Kalahari", "Atacama"],
+                    "answer": "Sahara",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What country has the most natural lakes?",
-                    "options": [
-                        "Canada",
-                        "Russia",
-                        "USA",
-                        "India"
-                    ],
-                    "answer": "Canada"
+                    "options": ["Canada", "Russia", "USA", "India"],
+                    "answer": "Canada",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Which country is known as the Land of the Rising Sun?",
-                    "options": [
-                        "China",
-                        "Japan",
-                        "Thailand",
-                        "South Korea"
-                    ],
-                    "answer": "Japan"
+                    "options": ["China", "Japan", "Thailand", "South Korea"],
+                    "answer": "Japan",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the capital of Australia?",
-                    "options": [
-                        "Canberra",
-                        "Sydney",
-                        "Melbourne",
-                        "Brisbane"
-                    ],
-                    "answer": "Canberra"
+                    "options": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+                    "answer": "Canberra",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Which ocean is the largest?",
-                    "options": [
-                        "Atlantic",
-                        "Indian",
-                        "Arctic",
-                        "Pacific"
-                    ],
-                    "answer": "Pacific"
+                    "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+                    "answer": "Pacific",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What mountain range separates Europe and Asia?",
-                    "options": [
-                        "Himalayas",
-                        "Rockies",
-                        "Andes",
-                        "Ural"
-                    ],
-                    "answer": "Ural"
+                    "options": ["Himalayas", "Rockies", "Andes", "Ural"],
+                    "answer": "Ural",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the capital of Egypt?",
-                    "options": [
-                        "Cairo",
-                        "Alexandria",
-                        "Giza",
-                        "Luxor"
-                    ],
-                    "answer": "Cairo"
+                    "options": ["Cairo", "Alexandria", "Giza", "Luxor"],
+                    "answer": "Cairo",
+                    "difficulty": "easy"
                 }
             ]
         },
@@ -536,103 +386,63 @@
             "questions": [
                 {
                     "question": "Who wrote 'Romeo and Juliet'?",
-                    "options": [
-                        "Charles Dickens",
-                        "Jane Austen",
-                        "William Shakespeare",
-                        "Mark Twain"
-                    ],
-                    "answer": "William Shakespeare"
+                    "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+                    "answer": "William Shakespeare",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the first book of the Harry Potter series?",
-                    "options": [
-                        "Harry Potter and the Goblet of Fire",
-                        "Harry Potter and the Chamber of Secrets",
-                        "Harry Potter and the Philosopher's Stone",
-                        "Harry Potter and the Order of the Phoenix"
-                    ],
-                    "answer": "Harry Potter and the Philosopher's Stone"
+                    "options": ["Harry Potter and the Goblet of Fire", "Harry Potter and the Chamber of Secrets", "Harry Potter and the Philosopher's Stone", "Harry Potter and the Order of the Phoenix"],
+                    "answer": "Harry Potter and the Philosopher's Stone",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Who wrote 'The Great Gatsby'?",
-                    "options": [
-                        "F. Scott Fitzgerald",
-                        "Ernest Hemingway",
-                        "J.D. Salinger",
-                        "Leo Tolstoy"
-                    ],
-                    "answer": "F. Scott Fitzgerald"
+                    "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "J.D. Salinger", "Leo Tolstoy"],
+                    "answer": "F. Scott Fitzgerald",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What genre does '1984' belong to?",
-                    "options": [
-                        "Fiction",
-                        "Non-fiction",
-                        "Fantasy",
-                        "Dystopian"
-                    ],
-                    "answer": "Dystopian"
+                    "options": ["Fiction", "Non-fiction", "Fantasy", "Dystopian"],
+                    "answer": "Dystopian",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Who is the author of 'Moby Dick'?",
-                    "options": [
-                        "Herman Melville",
-                        "Charles Dickens",
-                        "Leo Tolstoy",
-                        "Mark Twain"
-                    ],
-                    "answer": "Herman Melville"
+                    "options": ["Herman Melville", "Charles Dickens", "Leo Tolstoy", "Mark Twain"],
+                    "answer": "Herman Melville",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the main theme of 'To Kill a Mockingbird'?",
-                    "options": [
-                        "Racism",
-                        "Friendship",
-                        "Love",
-                        "War"
-                    ],
-                    "answer": "Racism"
+                    "options": ["Racism", "Friendship", "Love", "War"],
+                    "answer": "Racism",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Who wrote 'Pride and Prejudice'?",
-                    "options": [
-                        "Charlotte Brontë",
-                        "Jane Austen",
-                        "Virginia Woolf",
-                        "Emily Dickinson"
-                    ],
-                    "answer": "Jane Austen"
+                    "options": ["Charlotte Brontë", "Jane Austen", "Virginia Woolf", "Emily Dickinson"],
+                    "answer": "Jane Austen",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the setting of 'The Catcher in the Rye'?",
-                    "options": [
-                        "New York City",
-                        "London",
-                        "Paris",
-                        "Tokyo"
-                    ],
-                    "answer": "New York City"
+                    "options": ["New York City", "London", "Paris", "Tokyo"],
+                    "answer": "New York City",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Who wrote 'The Odyssey'?",
-                    "options": [
-                        "Homer",
-                        "Virgil",
-                        "Ovid",
-                        "Sophocles"
-                    ],
-                    "answer": "Homer"
+                    "options": ["Homer", "Virgil", "Ovid", "Sophocles"],
+                    "answer": "Homer",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the main character's name in 'The Hunger Games'?",
-                    "options": [
-                        "Katniss Everdeen",
-                        "Hermione Granger",
-                        "Bella Swan",
-                        "Luna Lovegood"
-                    ],
-                    "answer": "Katniss Everdeen"
+                    "options": ["Katniss Everdeen", "Hermione Granger", "Bella Swan", "Luna Lovegood"],
+                    "answer": "Katniss Everdeen",
+                    "difficulty": "easy"
                 }
             ]
         },
@@ -642,103 +452,63 @@
             "questions": [
                 {
                     "question": "Who painted the Mona Lisa?",
-                    "options": [
-                        "Vincent van Gogh",
-                        "Pablo Picasso",
-                        "Leonardo da Vinci",
-                        "Claude Monet"
-                    ],
-                    "answer": "Leonardo da Vinci"
+                    "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+                    "answer": "Leonardo da Vinci",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What art movement is associated with Andy Warhol?",
-                    "options": [
-                        "Impressionism",
-                        "Surrealism",
-                        "Pop Art",
-                        "Cubism"
-                    ],
-                    "answer": "Pop Art"
+                    "options": ["Impressionism", "Surrealism", "Pop Art", "Cubism"],
+                    "answer": "Pop Art",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Who sculpted David?",
-                    "options": [
-                        "Michelangelo",
-                        "Donatello",
-                        "Bernini",
-                        "Rodin"
-                    ],
-                    "answer": "Michelangelo"
+                    "options": ["Michelangelo", "Donatello", "Bernini", "Rodin"],
+                    "answer": "Michelangelo",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the primary medium of a watercolor painting?",
-                    "options": [
-                        "Oil",
-                        "Acrylic",
-                        "Water",
-                        "Charcoal"
-                    ],
-                    "answer": "Water"
+                    "options": ["Oil", "Acrylic", "Water", "Charcoal"],
+                    "answer": "Water",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Which artist is known for his murals in Mexico?",
-                    "options": [
-                        "Diego Rivera",
-                        "Frida Kahlo",
-                        "David Alfaro Siqueiros",
-                        "Rufino Tamayo"
-                    ],
-                    "answer": "Diego Rivera"
+                    "options": ["Diego Rivera", "Frida Kahlo", "David Alfaro Siqueiros", "Rufino Tamayo"],
+                    "answer": "Diego Rivera",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the term for the art of paper folding?",
-                    "options": [
-                        "Origami",
-                        "Calligraphy",
-                        "Decoupage",
-                        "Papercraft"
-                    ],
-                    "answer": "Origami"
+                    "options": ["Origami", "Calligraphy", "Decoupage", "Papercraft"],
+                    "answer": "Origami",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Who is known for the painting 'The Starry Night'?",
-                    "options": [
-                        "Vincent van Gogh",
-                        "Pablo Picasso",
-                        "Claude Monet",
-                        "Henri Matisse"
-                    ],
-                    "answer": "Vincent van Gogh"
+                    "options": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Henri Matisse"],
+                    "answer": "Vincent van Gogh",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the term for a painting done on wet plaster?",
-                    "options": [
-                        "Fresco",
-                        "Tempera",
-                        "Encaustic",
-                        "Mosaic"
-                    ],
-                    "answer": "Fresco"
+                    "options": ["Fresco", "Tempera", "Encaustic", "Mosaic"],
+                    "answer": "Fresco",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Who created the sculpture 'The Thinker'?",
-                    "options": [
-                        "Auguste Rodin",
-                        "Henri Matisse",
-                        "Alberto Giacometti",
-                        "Louise Bourgeois"
-                    ],
-                    "answer": "Auguste Rodin"
+                    "options": ["Auguste Rodin", "Henri Matisse", "Alberto Giacometti", "Louise Bourgeois"],
+                    "answer": "Auguste Rodin",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the main focus of abstract art?",
-                    "options": [
-                        "Realism",
-                        "Expression",
-                        "Geometry",
-                        "Color"
-                    ],
-                    "answer": "Expression"
+                    "options": ["Realism", "Expression", "Geometry", "Color"],
+                    "answer": "Expression",
+                    "difficulty": "hard"
                 }
             ]
         },
@@ -748,103 +518,63 @@
             "questions": [
                 {
                     "question": "Who composed the Four Seasons?",
-                    "options": [
-                        "Ludwig van Beethoven",
-                        "Johann Sebastian Bach",
-                        "Antonio Vivaldi",
-                        "Wolfgang Amadeus Mozart"
-                    ],
-                    "answer": "Antonio Vivaldi"
+                    "options": ["Ludwig van Beethoven", "Johann Sebastian Bach", "Antonio Vivaldi", "Wolfgang Amadeus Mozart"],
+                    "answer": "Antonio Vivaldi",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the term for the speed of a piece of music?",
-                    "options": [
-                        "Tempo",
-                        "Rhythm",
-                        "Melody",
-                        "Harmony"
-                    ],
-                    "answer": "Tempo"
+                    "options": ["Tempo", "Rhythm", "Melody", "Harmony"],
+                    "answer": "Tempo",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Which instrument is known as the king of instruments?",
-                    "options": [
-                        "Piano",
-                        "Organ",
-                        "Violin",
-                        "Guitar"
-                    ],
-                    "answer": "Organ"
+                    "options": ["Piano", "Organ", "Violin", "Guitar"],
+                    "answer": "Organ",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Who is known as the 'Queen of Pop'?",
-                    "options": [
-                        "Madonna",
-                        "Beyoncé",
-                        "Lady Gaga",
-                        "Taylor Swift"
-                    ],
-                    "answer": "Madonna"
+                    "options": ["Madonna", "Beyoncé", "Lady Gaga", "Taylor Swift"],
+                    "answer": "Madonna",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is a musical scale?",
-                    "options": [
-                        "A series of notes",
-                        "A type of rhythm",
-                        "A form of harmony",
-                        "A pattern of chords"
-                    ],
-                    "answer": "A series of notes"
+                    "options": ["A series of notes", "A type of rhythm", "A form of harmony", "A pattern of chords"],
+                    "answer": "A series of notes",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Which composer is known for his symphonies?",
-                    "options": [
-                        "Johannes Brahms",
-                        "Claude Debussy",
-                        "Frédéric Chopin",
-                        "Gustav Mahler"
-                    ],
-                    "answer": "Gustav Mahler"
+                    "options": ["Johannes Brahms", "Claude Debussy", "Frédéric Chopin", "Gustav Mahler"],
+                    "answer": "Gustav Mahler",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the name of the famous music festival held in Coachella Valley?",
-                    "options": [
-                        "Lollapalooza",
-                        "Glastonbury",
-                        "Coachella",
-                        "Burning Man"
-                    ],
-                    "answer": "Coachella"
+                    "options": ["Lollapalooza", "Glastonbury", "Coachella", "Burning Man"],
+                    "answer": "Coachella",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What instrument is typically used in jazz music?",
-                    "options": [
-                        "Guitar",
-                        "Piano",
-                        "Trumpet",
-                        "Drums"
-                    ],
-                    "answer": "Trumpet"
+                    "options": ["Guitar", "Piano", "Trumpet", "Drums"],
+                    "answer": "Trumpet",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Who wrote the opera 'Carmen'?",
-                    "options": [
-                        "Giuseppe Verdi",
-                        "Giacomo Puccini",
-                        "Georges Bizet",
-                        "Wolfgang Amadeus Mozart"
-                    ],
-                    "answer": "Georges Bizet"
+                    "options": ["Giuseppe Verdi", "Giacomo Puccini", "Georges Bizet", "Wolfgang Amadeus Mozart"],
+                    "answer": "Georges Bizet",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the most widely used musical notation?",
-                    "options": [
-                        "Standard notation",
-                        "Tablature",
-                        "Figured bass",
-                        "Graphic notation"
-                    ],
-                    "answer": "Standard notation"
+                    "options": ["Standard notation", "Tablature", "Figured bass", "Graphic notation"],
+                    "answer": "Standard notation",
+                    "difficulty": "hard"
                 }
             ]
         },
@@ -854,103 +584,129 @@
             "questions": [
                 {
                     "question": "Which sport is known as 'the beautiful game'?",
-                    "options": [
-                        "Basketball",
-                        "Cricket",
-                        "Soccer",
-                        "Tennis"
-                    ],
-                    "answer": "Soccer"
+                    "options": ["Basketball", "Cricket", "Soccer", "Tennis"],
+                    "answer": "Soccer",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "How many players are on a basketball team?",
-                    "options": [
-                        "5",
-                        "6",
-                        "7",
-                        "8"
-                    ],
-                    "answer": "5"
+                    "options": ["5", "6", "7", "8"],
+                    "answer": "5",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "Which country hosted the 2016 Summer Olympics?",
-                    "options": [
-                        "USA",
-                        "China",
-                        "Brazil",
-                        "UK"
-                    ],
-                    "answer": "Brazil"
+                    "options": ["USA", "China", "Brazil", "UK"],
+                    "answer": "Brazil",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the highest score possible in a game of bowling?",
-                    "options": [
-                        "200",
-                        "300",
-                        "100",
-                        "400"
-                    ],
-                    "answer": "300"
+                    "options": ["200", "300", "100", "400"],
+                    "answer": "300",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "What is the national sport of Japan?",
-                    "options": [
-                        "Karate",
-                        "Sumo Wrestling",
-                        "Baseball",
-                        "Soccer"
-                    ],
-                    "answer": "Sumo Wrestling"
+                    "options": ["Karate", "Sumo Wrestling", "Baseball", "Soccer"],
+                    "answer": "Sumo Wrestling",
+                    "difficulty": "medium"
                 },
                 {
                     "question": "Which sport uses a bat and ball and is played on a diamond?",
-                    "options": [
-                        "Cricket",
-                        "Baseball",
-                        "Softball",
-                        "Lacrosse"
-                    ],
-                    "answer": "Baseball"
+                    "options": ["Cricket", "Baseball", "Softball", "Lacrosse"],
+                    "answer": "Baseball",
+                    "difficulty": "easy"
                 },
                 {
                     "question": "What is the length of an Olympic swimming pool?",
-                    "options": [
-                        "25 meters",
-                        "50 meters",
-                        "100 meters",
-                        "75 meters"
-                    ],
-                    "answer": "50 meters"
+                    "options": ["25 meters", "50 meters", "100 meters", "75 meters"],
+                    "answer": "50 meters",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Who holds the record for the most home runs in MLB history?",
-                    "options": [
-                        "Babe Ruth",
-                        "Barry Bonds",
-                        "Hank Aaron",
-                        "Ted Williams"
-                    ],
-                    "answer": "Barry Bonds"
+                    "options": ["Babe Ruth", "Barry Bonds", "Hank Aaron", "Ted Williams"],
+                    "answer": "Barry Bonds",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "Which country has won the most FIFA World Cups?",
-                    "options": [
-                        "Germany",
-                        "Brazil",
-                        "Italy",
-                        "Argentina"
-                    ],
-                    "answer": "Brazil"
+                    "options": ["Germany", "Brazil", "Italy", "Argentina"],
+                    "answer": "Brazil",
+                    "difficulty": "hard"
                 },
                 {
                     "question": "What is the only sport to have been played on the moon?",
-                    "options": [
-                        "Golf",
-                        "Baseball",
-                        "Soccer",
-                        "Tennis"
-                    ],
-                    "answer": "Golf"
+                    "options": ["Golf", "Baseball", "Soccer", "Tennis"],
+                    "answer": "Golf",
+                    "difficulty": "hard"
+                }
+            ]
+        },
+        {
+            "name": "General Knowledge",
+            "image": "/images/quiz.png",
+            "questions": [
+                {
+                    "question": "What is the capital of France?",
+                    "options": ["London", "Paris", "Rome", "Berlin"],
+                    "answer": "Paris",
+                    "difficulty": "easy"
+                },
+                {
+                    "question": "Which is the largest planet in our solar system?",
+                    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+                    "answer": "Jupiter",
+                    "difficulty": "easy"
+                },
+                {
+                    "question": "Who wrote 'To Kill a Mockingbird'?",
+                    "options": ["Harper Lee", "J.K. Rowling", "Stephen King", "George Orwell"],
+                    "answer": "Harper Lee",
+                    "difficulty": "medium"
+                },
+                {
+                    "question": "What is the currency of Japan?",
+                    "options": ["Yuan", "Yen", "Won", "Baht"],
+                    "answer": "Yen",
+                    "difficulty": "medium"
+                },
+                {
+                    "question": "In which year did the Titanic sink?",
+                    "options": ["1905", "1912", "1918", "1923"],
+                    "answer": "1912",
+                    "difficulty": "medium"
+                },
+                {
+                    "question": "Who painted the 'Mona Lisa'?",
+                    "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+                    "answer": "Leonardo da Vinci",
+                    "difficulty": "easy"
+                },
+                {
+                    "question": "Which country is home to the kangaroo?",
+                    "options": ["South Africa", "Australia", "India", "Brazil"],
+                    "answer": "Australia",
+                    "difficulty": "easy"
+                },
+                {
+                    "question": "What is the smallest country in the world?",
+                    "options": ["Monaco", "Vatican City", "Nauru", "San Marino"],
+                    "answer": "Vatican City",
+                    "difficulty": "hard"
+                },
+                {
+                    "question": "What is the most spoken language in the world?",
+                    "options": ["English", "Mandarin Chinese", "Spanish", "Hindi"],
+                    "answer": "Mandarin Chinese",
+                    "difficulty": "hard"
+                },
+                {
+                    "question": "Who invented the telephone?",
+                    "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"],
+                    "answer": "Alexander Graham Bell",
+                    "difficulty": "hard"
                 }
             ]
         }

@@ -4,10 +4,15 @@ import { useEffect, useState } from "react";
 import { usePoints } from "@/context/PointsContext";
 import QuestionTimer from "@/components/QuestionTimer";
 import Results from "@/components/Results";
+import { useSearchParams } from 'next/navigation';
+import { useUser } from "@/context/UserContext";
 
 const Quiz = ({ params }) => {
   const { subject } = params;
   const { points, setPoints } = usePoints();
+  const searchParams = useSearchParams();
+  const difficulty = searchParams.get('difficulty');
+  const { user, saveProgress } = useUser();
 
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -22,19 +27,18 @@ const Quiz = ({ params }) => {
 
   useEffect(() => {
     const fetchQuestions = async () => {
-      const response = await fetch("/data/questions.json");
+      const response = await fetch(`/api/questions/${subject}?difficulty=${difficulty}`);
       if (response.ok) {
         const data = await response.json();
-        const subjectData = data.subjects.find(
-          (s) => s.name.toLowerCase() === subject
-        );
-        setQuestions(subjectData ? subjectData.questions : []);
+        setQuestions(data.questions);
       } else {
         console.error("Failed to fetch questions");
       }
     };
-    fetchQuestions();
-  }, [subject]);
+    if (subject && difficulty) {
+      fetchQuestions();
+    }
+  }, [subject, difficulty]);
 
   const handleAnswer = (option) => {
     if (isAnswered) return;
@@ -76,6 +80,25 @@ const Quiz = ({ params }) => {
   // Calculate the percentage score
   const percentage = Math.round((correctAnswers / questions.length) * 100);
   const averageTimePerQuestion = (totalTimeSpent / questions.length).toFixed(2);
+
+  useEffect(() => {
+    if (showResults) {
+      const result = {
+        subject,
+        difficulty,
+        score: points,
+        totalQuestions: questions.length,
+        correctAnswers,
+        wrongAnswers,
+        unattemptedQuestions,
+        percentage,
+        timeSpent: totalTimeSpent,
+        averageTimePerQuestion,
+        date: new Date().toISOString(),
+      };
+      saveProgress(result);
+    }
+  }, [showResults]);
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
